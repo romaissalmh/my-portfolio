@@ -106,7 +106,7 @@ export default function ContactMe() {
                     <input type="text" id="email" name="email" placeholder=""  onChange={handleChange}/>
 
                     <label className="text-label">Message</label>
-                    <textarea type="text" id="message" name="message" placeholder=""/>
+                    <textarea type="text" id="message" name="message" placeholder="" onChange={handleChange}/>
                 
                     <input className="btn-1" type="submit" value="SAY HI !"/>
                 </form>
