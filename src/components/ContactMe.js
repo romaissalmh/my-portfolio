@@ -93,13 +93,17 @@ export default function ContactMe() {
             </div>
 
               <form className="img" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
-                  <input type="hidden" name="form-name" value="contact" />
-
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p hidden>
+                    <label>
+                        Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                    </label>
+                    </p>
                     <label className="text-label"> Name</label>
-                    <input type="text" id="name" name="name" placeholder=""/>
+                    <input type="text" id="name" name="name" placeholder="" onChange={handleChange}/>
 
                     <label className="text-label">Email</label>
-                    <input type="text" id="email" name="email" placeholder=""/>
+                    <input type="text" id="email" name="email" placeholder=""  onChange={handleChange}/>
 
                     <label className="text-label">Message</label>
                     <textarea type="text" id="message" name="message" placeholder=""/>
