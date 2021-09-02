@@ -2,7 +2,7 @@
 title: Autolib - Rental App -
 stack: Kotlin, Node.js, Express.js, PostgreSQL
 thumb: ../images/autolib-project.png
-description: A software solution for managing a company's fleet of cars. This solution must allow customers to rent car using a mobile application, these cars are equipped with an on-board computer which make the real-time tracking possible.
+description: A software solution for managing a company's fleet of cars. This solution must allow customers to rent a car using a mobile application, these cars are equipped with an on-board computer which makes the real-time tracking possible.
 github-front: https://github.com/autolibDZ/autolibDZ-rental
 github-back: https://github.com/autolibDZ/autolibDZ-REST-API
 --- 

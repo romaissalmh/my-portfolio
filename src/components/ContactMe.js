@@ -4,6 +4,7 @@ import { VscMail } from "react-icons/vsc";
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from 'gatsby'
 import { navigate } from 'gatsby-link'
+import ReactModal from 'react-modal'
 
 
 function encode(data) {
@@ -13,6 +14,9 @@ function encode(data) {
   }
 
 export default function ContactMe() {
+
+ 
+
     const data = useStaticQuery(graphql`
     {
         file(relativePath: {eq: "blogging.png"}) {
@@ -44,13 +48,15 @@ export default function ContactMe() {
           ...state,
         }),
       })
-        .then(() => navigate(form.getAttribute('action')))
+        .then(() => {navigate(form.getAttribute('action'))
+        alert("Thank you for your message ! -Rome.K-");
+        })
         .catch((error) => alert(error))
     }
 
     return (
         <div id="contact" className="contact flex" style={{backgroundColor:"black",paddingTop:"8rem"}}>
-
+            
             <div  className="img"style={{justifyContent:"center"}}>
                  <h1 className="title"> Let's talk </h1>  <br/><br/>
                  <h2 className="text-content"> Get a question or a proposal, or just want <br/> to say hi? Go ahead. </h2>
