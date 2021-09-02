@@ -2,10 +2,9 @@
 title: El Chater
 stack: React Native, Node.js, Express.js, MongoDB, Jest, Swagger
 thumb: ../images/el-chater-project.png
-description: An educational mobile application dedicated to primary school students, it aims to help them revising their lessons. I worked on it with my binome during a summer intership.
-
-github-front: https://gitlab.com/stages-fd/chater
-github-back: https://github.com/romaissalmh/Quiz-REST-API
+description: An educational mobile application dedicated to primary school students, it aims to help them revise their lessons. I worked on it with my internship partner.
+github_front: https://gitlab.com/stages-fd/chater
+github_back: https://github.com/romaissalmh/Quiz-REST-API
 ---
 
 Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.

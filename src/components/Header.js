@@ -51,7 +51,7 @@ export default function Header({}) {
              <h1 ref={el} style={{fontSize:"28px", fontWeight:"900"}}  className="header-title"/><br/><br/>
 
         
-                <h2 className="header-subtitle"> I am always highly enthusiastic about my work and love to face challenges in order <br/> to expand my knowledge and skills in IT. </h2>
+                <h2 className="header-subtitle" style={{paddingRight:"3rem"}}> I am always highly enthusiastic about my work and love to face challenges in order to expand my knowledge and skills in IT. </h2>
             </div>
            
               

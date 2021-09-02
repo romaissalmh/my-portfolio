@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from "./Card"
 import {Link} from 'gatsby'
-
+ 
 export default function Projects() {
     return (
         <div id="projects" className="project-container">
@@ -17,8 +17,8 @@ export default function Projects() {
                 </div>
 
                 <div className="column">
-                <Card url="/autolib-dz.jpg" name="Autolib Rental App" description="A software solution for managing a company's fleet of self-service cars. This solution must allow the management of the cars equipped with an on-board computer by monitoring them as well as managing their rental by customer." />
-                <Card url="/DoctorMe.png" name="DoctorMe" description="A medical appointment application for doctors. Doctors can login, scan a QRCode and get all details of an appointment. He can view the list of appointments . He also receives a notification each time an appointment is created. " />
+                <Card url="/autolib-dz.jpg" name="Autolib Rental App" description="A software solution for managing a company's fleet of cars. This solution must allow customers to rent car using a mobile application, these cars are equipped with an on-board computer which make the real-time tracking possible." />
+                <Card url="/DoctorMe.png" name="DoctorMe" description="A medical appointment application for doctors. Doctors can login, scan a QRCode and get all details of an appointment. They can view the list of appointments . They also receives a notification each time an appointment is created." />
                 <Link to="/projects" style={{ border: "1px solid white"}} className="btn-outliner">VIEW ALL PROJECTS</Link>
 
 

@@ -84,7 +84,7 @@ export default function Skills() {
                         </div>
                         <div style={{display:"block"}} >
                             <DiPostgresql className="icon"/>  
-                            <h4 className="skills-titles" > Kotlin</h4>  
+                            <h4 className="skills-titles" > PostgreSQL</h4>  
                         </div>
                     </div> <br/>  <br/> 
 
