@@ -1,7 +1,7 @@
 ---
 title: Helios - Weather Prediction Desktop Application -
 stack: .NET Framework, C#, SQL Server
-thumb: /helios.png
+thumb: ../images/helios.png
 description: A desktop application that predicts the weather for the next seven days based on the current weather and a database containing Algeria's weather information for the past ten years using similarity functions .
 github-front: https://github.com/romaissalmh/Helios
 github-back: 

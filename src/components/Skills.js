@@ -2,17 +2,32 @@ import React from 'react'
 import {FaJava, FaJenkins } from 'react-icons/fa';
 import {DiMongodb, DiPostgresql,DiMysql,DiHtml5,DiCss3,DiBootstrap,DiGithubBadge,DiPhp,DiNodejsSmall,DiJavascript1} from 'react-icons/di';
 import {SiKotlin} from 'react-icons/si';
+import Img from "gatsby-image"
+import { graphql, useStaticQuery } from 'gatsby'
 
 
 
 export default function Skills() {
+    const data = useStaticQuery(graphql`
+    {
+        file(relativePath: {eq: "chatbot-bw.png"}) {
+            childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+          }
+    }
+  `) 
+
+    const { fluid } = data.file.childImageSharp
     return (
         <div id="skills" className="skills" >
              <h1 className="title" style={{paddingLeft:"6rem"}}> Skills</h1> 
 
             <div className="flex" >
-            <img src="/chatbot-bw.png"  className="img" style={{margin:"-40px" }} />
-           
+            <Img className="img" atl="certifications" fluid={fluid} style={{padding:"-40px" }}  />
+
             <div style={{marginTop:"4rem"}}>
                 <div className="column">
 

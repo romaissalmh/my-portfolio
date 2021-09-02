@@ -1,9 +1,25 @@
 import React from 'react'
 import Typed from 'typed.js';
+import Img from "gatsby-image"
+import { graphql, useStaticQuery } from 'gatsby'
 
 
 
-export default function Header() {
+export default function Header({}) {
+    const data = useStaticQuery(graphql`
+    {
+        file(relativePath: {eq: "web-development.png"}) {
+            childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+          }
+    }
+  `) 
+  
+
+    const { fluid } = data.file.childImageSharp
 
     const el = React.useRef(null);
     // Create reference to store the Typed instance itself
@@ -29,9 +45,10 @@ export default function Header() {
     
     return (
         <div className="header gradient-background flex">
-            <img src="/web-development.png" alt="header-image" className="img" style={{margin:"-20px" }} />
+            <Img className="img" style={{padding:"-20px" }} fluid={fluid} />
+
             <div className="">
-             <h1 ref={el} style={{fontSize:"35px", fontWeight:"900"}}  className="header-title"/><br/><br/>
+             <h1 ref={el} style={{fontSize:"32px", fontWeight:"900"}}  className="header-title"/><br/><br/>
 
         
                 <h2 className="header-subtitle"> I am always highly enthusiastic about my work and love to face challenges in order <br/> to expand my knowledge and skills in IT. </h2>
@@ -44,3 +61,4 @@ export default function Header() {
     
     )
 }
+

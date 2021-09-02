@@ -13,9 +13,7 @@ export default function Layout({children}) {
                  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
              </Helmet>
-             <div class="loader-wrapper">
-                <span class="loader"><span class="loader-inner"></span></span>
-            </div>
+         
              <Navbar/>
              <div className="content">
                 {children}

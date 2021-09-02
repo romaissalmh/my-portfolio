@@ -1,7 +1,7 @@
 ---
 title: ETIC Website -REST API-
 stack: Node.js, Express.js, MySQL
-thumb: /backend-project-2.jpg
+thumb: ../images/backend-project-2.jpg
 description: Development of the server side logic of a website for a student organization. 
 github-front: 
 github-back: 

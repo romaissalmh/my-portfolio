@@ -1,7 +1,7 @@
 ---
 title: School Management System
 stack: HTML, TailwindCSS, PHP, Javascript, MySQL
-thumb: /School_Management.jpg
+thumb: ../images/School_Management.jpg
 description: A web application that aims to facilitate the school services.This system has following features:TimeTables, Marks, Registration, External, activities Restauration. And multiple four Roles Admin, Teacher, Student and Parent
 github-front: https://github.com/romaissalmh/school-management
 github-back: 

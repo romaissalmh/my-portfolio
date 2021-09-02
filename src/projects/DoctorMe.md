@@ -1,7 +1,7 @@
 ---
 title: DoctorMe
 stack: Kotlin, Node.js, Express.js, MongoDB, Mongo Atlas
-thumb: /doctorMe-project.png
+thumb: ../images/doctorMe-project.png
 description: A medical appointment application for doctors. Doctors can login, scan a QRCode and get all details of an appointment. He can view the list of appointments . He also receives a notification each time an appointment is created.
 github-front: https://github.com/romaissalmh/patient-management-app
 github-back: https://github.com/romaissalmh/doctor-bookings-rest-api

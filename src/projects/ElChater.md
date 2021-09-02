@@ -1,7 +1,7 @@
 ---
 title: El Chater
 stack: React Native, Node.js, Express.js, MongoDB, Jest, Swagger
-thumb: /el-chater-project.png
+thumb: ../images/el-chater-project.png
 description: An educational mobile application dedicated to primary school students, it aims to help them revising their lessons. I worked on it with my binome during a summer intership.
 
 github-front: https://gitlab.com/stages-fd/chater
