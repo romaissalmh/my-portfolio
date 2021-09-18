@@ -129,10 +129,10 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-  /* .icon{
+   .icon{
         width: 80px !important;
         height: 80px !important;
-    }*/
+    }
     .skills-row{
         display: flex !important;
         flex-direction: column !important;
