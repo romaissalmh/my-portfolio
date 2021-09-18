@@ -127,6 +127,12 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .icon{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    
+
     .flex{
         flex-direction: column;
     }
@@ -136,12 +142,12 @@ a {
    .half{
         width: 100%;
     }
-
-
+  
     
   
 
 }
+
 
 
 .skills{
@@ -262,8 +268,8 @@ a {
 }
 
 .icon{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
 
 .row {
@@ -325,7 +331,7 @@ a {
 
 .project-container{
     background-color: black;
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
     padding-bottom: 8rem;
 
 }
