@@ -30,7 +30,7 @@ export default function Header({}) {
               strings: [
               '<h1> I’m Romaissa Kessi.<br/> A web and mobile <br/> developer.</h1>',
           ],
-          typeSpeed: 50,
+          typeSpeed: 30,
           backSpeed: 50,
           };
           
@@ -45,8 +45,10 @@ export default function Header({}) {
     
     return (
         <div className="header gradient-background flex">
-            <Img className="img" style={{padding:"-20px" }} fluid={fluid} />
-
+        
+            <div className="img" data-aos="fade-right">
+               <Img style={{padding:"-20px" }} fluid={fluid} />
+            </div>
             <div className="">
              <h1 ref={el} style={{fontSize:"28px", fontWeight:"900"}}  className="header-title"/><br/><br/>
 

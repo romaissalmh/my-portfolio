@@ -23,7 +23,7 @@ export default function Certifications() {
     return (
         <div id="certifications" className="aboutme flex">
 
-            <div style={{ marginLeft: "8rem", paddingTop:"8rem"}} >
+            <div data-aos="fade-right" className="padding" style={{ paddingTop:"8rem"}} >
                 <h1 className="aboutme-title">Certifications</h1>  <br/><br/>
                 <h2 className="text-content"> 
                 "Try to learn something about everything and everything about <br/> something." - Thomas H.Huxley -
@@ -62,9 +62,9 @@ export default function Certifications() {
  
                 
             </div>
-           
-            <Img className="img" atl="certifications" fluid={fluid} />
-
+            <div data-aos="flip-right"  className="img">
+            <Img  atl="certifications" fluid={fluid} />
+            </div>
 
         </div>
     )

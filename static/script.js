@@ -1,5 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const rightDiv = document.querySelectorAll('#rightDiv');
 
 
 function mobileMenu() {
@@ -17,3 +18,4 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 navLink.forEach(n => n.addEventListener("click", closeMenu));
+

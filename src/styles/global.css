@@ -130,8 +130,8 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
    .icon{
-        width: 80px !important;
-        height: 80px !important;
+        width: 70px !important;
+        height: 70px !important;
     }
   
     .grid-container{
@@ -149,12 +149,12 @@ a {
         width: 100%;
     }
  
-    .skills{
-    
-        padding-left: 0rem !important;
-
+    .padding{
+        padding-left: 1rem !important;
     }
-  
+    .skills{
+        padding-left: 0rem !important;
+    }
 
 }
 
@@ -209,6 +209,9 @@ a {
 .aboutme-title{
     font-size: 50px;
     color: black;
+}
+.padding{
+    padding-left: 8rem !important;
 }
 
 .text-content{

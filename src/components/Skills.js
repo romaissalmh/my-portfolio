@@ -26,9 +26,11 @@ export default function Skills() {
              <h1 className="title" style={{paddingLeft:"6rem"}}> Skills</h1> 
 
             <div className="flex" >
-            <Img className="img" atl="certifications" fluid={fluid} style={{padding:"-40px" }}  />
+            <div className="img" data-aos="fade-right">
+                 <Img  atl="certifications" fluid={fluid} style={{padding:"-40px" }}  />
+            </div>
 
-            <div style={{marginTop:"4rem"}}>
+            <div data-aos="flip-left" style={{marginTop:"4rem"}}>
 
                     <br/> 
                     <div className="grid-container">

@@ -4,7 +4,6 @@ import { VscMail } from "react-icons/vsc";
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from 'gatsby'
 import { navigate } from 'gatsby-link'
-import ReactModal from 'react-modal'
 
 
 function encode(data) {
@@ -57,7 +56,7 @@ export default function ContactMe() {
     return (
         <div id="contact" className="contact flex" style={{backgroundColor:"black",paddingTop:"8rem"}}>
             
-            <div  className="img"style={{justifyContent:"center"}}>
+            <div data-aos="fade-right"  className="img"style={{justifyContent:"center"}}>
                  <h1 className="title"> Let's talk </h1>  <br/><br/>
                  <h2 className="text-content"> Get a question or a proposal, or just want <br/> to say hi? Go ahead. </h2>
                             
