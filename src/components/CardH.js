@@ -6,7 +6,7 @@ export default function CardH(props) {
     return (
         
         <div className="cardH flex">
-             <Img fluid={props.url} className="img" style={{height:"450px"}}/>
+             <Img fluid={props.url} className="img" />
 
             <div className="container img">
                 <h4 className="card-title" style={{fontSize:"24px"}}><b>{props.name}</b></h4><br/>

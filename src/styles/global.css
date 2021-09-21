@@ -184,6 +184,7 @@ a {
     background-color:#FFF3E4 ;
     padding-bottom: 8rem;
 
+
 }
 .header{
     padding-bottom: 10rem;
@@ -209,6 +210,7 @@ a {
 .aboutme-title{
     font-size: 50px;
     color: black;
+    word-break:normal !important; 
 }
 .padding{
     padding-left: 8rem !important;

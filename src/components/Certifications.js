@@ -24,7 +24,7 @@ export default function Certifications() {
         <div id="certifications" className="aboutme flex">
 
             <div data-aos="fade-right" className="padding" style={{ paddingTop:"8rem"}} >
-                <h1 className="aboutme-title">Certifications</h1>  <br/><br/>
+                <h1 className="aboutme-title">Certificates</h1>  <br/><br/>
                 <h2 className="text-content"> 
                 "Try to learn something about everything and everything about <br/> something." - Thomas H.Huxley -
                 </h2><br/>
